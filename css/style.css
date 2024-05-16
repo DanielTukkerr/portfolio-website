@@ -467,7 +467,6 @@ html, body {
   padding: 0 100px;
 }
 
-
 .contact-titel-links{
 width: 700px;
 }
@@ -484,6 +483,70 @@ font-size: 16px;
 width: 45%;
 color: rgba(255, 255, 255, 0.631);
 }
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.contact-info{
+  margin-bottom: 50px;
+}
+
+.contact-info [type="text"]{
+  font-size: 30px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  margin-right: 40px;
+  width: 200px;
+  color: white;
+}
+
+.contact-info [type="email"]{
+  width: 300px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  color: white;
+}
+
+.contact-bericht{
+  margin-bottom: 50px;
+}
+
+.contact-bericht textarea{
+  width: 540px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  color: white;
+}
+
+.contact-content [type="submit"]{
+  margin: 50px 0; 
+  cursor: pointer;
+  font-size: 20px;
+  border: solid rgba(119, 119, 119, 0.296) 2px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(173, 172, 172);
+  background-color: black;
+
+}
+
+.contact-content [type="submit"]:hover{
+  color: black;
+  background-color: white;
+  transition: 0.2s;
+}
+
 
 
 footer{

@@ -195,20 +195,23 @@
             </div>
             <div class="contact-titel-rechts">
                 <p>
-                    Wil je een indrukwekkende online aanwezigheid creëren? Neem dan direct contact met mij op. Hieronder kunt u gemakkelijk een bericht achter laten, waarna wij samen in gesprek kunnen gaan om jouw ideeën te bespreken en werkelijkheid te maken!
+                    Wil je een indrukwekkende online aanwezigheid creëren? Neem dan direct contact met mij op. Hieronder kun je gemakkelijk een bericht achter laten, waarna wij samen in gesprek kunnen gaan om jouw ideeën te bespreken en werkelijkheid te maken!
+                </p>    
             </div>
         </div>
         <div class="contact-content">
             <form action="https://api.web3forms.com/submit" method="POST">
 
-                <!-- Replace with your Access Key -->
+                
                 <input type="hidden" name="access_key" value="02e6f772-f6c0-43d0-a74e-077f863e870e">
             
-                <!-- Form Inputs. Each input must have a name="" attribute -->
-                <input type="text" name="name"  placeholder="Naam" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <textarea name="message" placeholder="Uw bericht" required></textarea>
-            
+                <div class="contact-info">
+                    <input type="text" name="name"  placeholder="Naam" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="contact-bericht">
+                    <textarea name="message" placeholder="Uw bericht" required></textarea>
+                </div>
                 <!-- hCaptcha Spam Protection -->
                 <div class="h-captcha" data-captcha="true"></div>
             
@@ -217,6 +220,8 @@
             </form>
             <!-- Required for hCaptcha -->
             <script src="https://web3forms.com/client/script.js" async defer></script>
+
+            
             
         </div>
     </section>

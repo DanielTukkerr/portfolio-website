@@ -174,10 +174,9 @@ html, body {
 .hero-heading h1{
     font-size: 180px;
     text-align: center;
-    font-family: PrimaryFont;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     margin-bottom: 0;
-    
 }
 
 .hero-heading h3{

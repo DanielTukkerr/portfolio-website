@@ -15,6 +15,12 @@ body{
     color: white;
 }
 
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('bebasneue.woff2') format('woff2'), /* Modern Browsers */
+       url('bebasneue.woff') format('woff'),   /* Modern Browsers */
+       url('bebasneue.ttf') format('truetype'); /* Legacy Browsers */
+}
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 
@@ -31,7 +37,7 @@ html, body {
 	-webkit-transform: translate(0, -50%);
 	transform: translate(0, -50%);
 	color: #fff;
-	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	font : normal 400 20px/1 Josefin Sans;
 	letter-spacing: .1em;
 	text-decoration: none;
 	transition: opacity .3s;
@@ -172,6 +178,7 @@ html, body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     margin-bottom: 0;
+    
 }
 
 .hero-heading h3{

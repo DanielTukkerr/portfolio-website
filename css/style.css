@@ -16,10 +16,8 @@ body{
 }
 
 @font-face {
-  font-family: 'PrimaryFont';
-  src: url('bebasneue.woff2') format('woff2'), /* Modern Browsers */
-       url('bebasneue.woff') format('woff'),   /* Modern Browsers */
-       url('bebasneue.ttf') format('truetype'); /* Legacy Browsers */
+  font-family: "Main";
+  src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
 
@@ -172,9 +170,9 @@ html, body {
 }
 
 .hero-heading h1{
-    font-size: 180px;
+    font-size: 190px;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "main";
     font-weight: 500;
     margin-bottom: 0;
 }
@@ -501,7 +499,7 @@ color: rgba(255, 255, 255, 0.631);
 }
 
 .contact-info [type="text"]{
-  font-size: 30px;
+  font-size: 22px;
   background: none;
   border: none;
   border-bottom: 1px solid rgb(185, 185, 185);
@@ -512,7 +510,7 @@ color: rgba(255, 255, 255, 0.631);
 
 .contact-info [type="email"]{
   width: 300px;
-  font-size: 30px;
+  font-size: 22px;
   background: none;
   border: none;
   border-bottom: 1px solid rgb(185, 185, 185);

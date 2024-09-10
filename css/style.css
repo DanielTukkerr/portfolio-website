@@ -158,7 +158,7 @@ html, body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Pas dit aan afhankelijk van hoeveel van de afbeelding je wilt vervagen */
+    height: 100vh; /* Pas dit aan afhankelijk van hoeveel van de afbeelding je wilt vervagen */
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
   }
 

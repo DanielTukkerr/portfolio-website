@@ -139,20 +139,20 @@ html, body {
     }
 
     .about-title h1{
-        font-size: 29.5vw;
+        font-size: 420px;
         margin-top: 30px;
     }
     
     .about-img img{
-        height: 600px;
+        height: 480px;
     }
 
     .text-container{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .about-content-top button{
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .back-btn button{
@@ -203,7 +203,15 @@ html, body {
     }
     
     .about-img img{
-        height: 450px;
+        height: 400px;
+    }
+
+    .about-content-top button{
+        font-size: 20px;
+    }
+
+    .text-container{
+        font-size: 18px;
     }
 }
 

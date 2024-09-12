@@ -925,7 +925,41 @@ footer h1{
   .expertise-icon img{
     height: 30px;
   }
-   
+
+  .project-content h1{
+    font-size: 1.4rem;
+    width: fit-content;
+  }
+
+  .project-content h2{
+    font-size: 1rem;
+    width: 150px;
+    justify-content: center;
+  }
+
+  .project-specificaties{
+    padding: 20px 0;
+    height: fit-content;
+    
+  }
+
+  .project-content2{
+    flex-direction: column;
+    text-align: end;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .project-content2 h2{
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .project{
+    height: 500px;
+  }
+
   .contact-titel{
     margin: 0;
     flex-direction: column;
@@ -990,6 +1024,53 @@ footer h1{
     align-items: center;
     text-align: center;
     align-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .werk-titel h1{
+    font-size: 4rem;
+  }
+
+  .expertise-titel h1{
+    font-size: 4rem;
+  }
+
+  .project-content2 h2{
+    visibility: hidden;
+  }
+
+  .project-content2{
+    visibility: hidden;
+    width: 0%;
+  }
+
+  .project-content{
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .project-specificaties{
+    padding: 0;
+    height: fit-content;
+  }
+
+  .project-content h1{
+    font-size: 1.5rem;
+  }
+
+  .project-content h2{
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+
+  .project{
+    height: 500px;
+  }
+
+  footer h1{
+    font-size: 0.6rem;
   }
 }
 
